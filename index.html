@@ -1,52 +1,7 @@
-<!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Landed by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="http://localhost:4000/assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="http://localhost:4000/assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="http://localhost:4000/assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body class="landing">
-		<div id="page-wrapper">
-
-			                            <!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="http://localhost:4000/index.html">Landed</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="http://localhost:4000/index.html">Home</a></li>
-                            <li><a href="http://localhost:4000/blog.html">Blog</a></li>
-							<li>
-								<a href="http://localhost:4000/#">Layouts</a>
-								<ul>
-									<li><a href="http://localhost:4000/left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="http://localhost:4000/right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="http://localhost:4000/no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="http://localhost:4000/#">Submenu</a>
-										<ul>
-											<li><a href="http://localhost:4000/#">Option 1</a></li>
-											<li><a href="http://localhost:4000/#">Option 2</a></li>
-											<li><a href="http://localhost:4000/#">Option 3</a></li>
-											<li><a href="http://localhost:4000/#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="http://localhost:4000/elements.html">Docs</a></li>
-							<li><a href="http://localhost:4000/#" class="button special icon fa-download">Download</a></li>
-						</ul>
-					</nav>
-				</header>
-
+---
+layout: default
+---
+            {% include header.html %}
 
 			<!-- Banner -->
 				<section id="banner">
@@ -56,14 +11,14 @@
 							<p>And there are no hoverboards or flying cars.<br />
 							Just apps. Lots of mother flipping apps.</p>
 						</header>
-						<span class="image"><img src="http://localhost:4000/images/pic01.jpg" alt="" /></span>
+						<span class="image"><img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" /></span>
 					</div>
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
 
 			<!-- One -->
                 <section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="http://localhost:4000/images/pic02.jpg" alt="" /></span>
+					<span class="image fit main"><img src="{{ site.url }}{{ site.baseurl }}/images/pic02.jpg" alt="" /></span>
 					<div class="content">
 						<div class="container">
 							<div class="row">
@@ -95,7 +50,7 @@
 
 			<!-- Two -->
 				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="http://localhost:4000/images/pic03.jpg" alt="" /></span>
+					<span class="image fit main"><img src="{{ site.url }}{{ site.baseurl }}/images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Interdum amet non magna accumsan</h2>
@@ -103,7 +58,7 @@
 						</header>
 						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
 						<ul class="actions">
-							<li><a href="http://localhost:4000/#" class="button">Learn More</a></li>
+							<li><a href="{{ site.url }}{{ site.baseurl }}/#" class="button">Learn More</a></li>
 						</ul>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
@@ -111,7 +66,7 @@
 
 			<!-- Three -->
 				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="http://localhost:4000/images/pic04.jpg" alt="" /></span>
+					<span class="image fit main bottom"><img src="{{ site.url }}{{ site.baseurl }}/images/pic04.jpg" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Interdum felis blandit praesent sed augue</h2>
@@ -119,7 +74,7 @@
 						</header>
 						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
 						<ul class="actions">
-							<li><a href="http://localhost:4000/#" class="button">Learn More</a></li>
+							<li><a href="{{ site.url }}{{ site.baseurl }}/#" class="button">Learn More</a></li>
 						</ul>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
@@ -168,7 +123,7 @@
 						</div>
 						<footer class="major">
 							<ul class="actions">
-								<li><a href="http://localhost:4000/#" class="button">Magna sed feugiat</a></li>
+								<li><a href="{{ site.url }}{{ site.baseurl }}/#" class="button">Magna sed feugiat</a></li>
 							</ul>
 						</footer>
 					</div>
@@ -190,33 +145,4 @@
 					</div>
 				</section>
 
-			                <!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="http://localhost:4000/#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="http://localhost:4000/#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="http://localhost:4000/#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="http://localhost:4000/#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="http://localhost:4000/#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="http://localhost:4000/#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
-
-
-            
-        </div>
-		<!-- Scripts -->
-			<script src="http://localhost:4000/assets/js/jquery.min.js"></script>
-			<script src="http://localhost:4000/assets/js/jquery.scrolly.min.js"></script>
-			<script src="http://localhost:4000/assets/js/jquery.dropotron.min.js"></script>
-			<script src="http://localhost:4000/assets/js/jquery.scrollex.min.js"></script>
-			<script src="http://localhost:4000/assets/js/skel.min.js"></script>
-			<script src="http://localhost:4000/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="http://localhost:4000/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="http://localhost:4000/assets/js/main.js"></script>
-
-	</body>
-</html>
+			{% include footer.html %}
