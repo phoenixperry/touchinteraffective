@@ -1,7 +1,8 @@
----
-layout: page
-title: Elements Reference
----
+#Phoenix commented these out to stop them from populating 
+# ---
+# layout: page
+# title: Elements Reference
+# ---
 
 <!-- Text stuff -->
 <h2>Text</h2>
